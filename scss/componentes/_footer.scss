@@ -1,0 +1,26 @@
+footer {
+    @extend %footer;
+
+    div{
+        align-items: center;
+        display: flex;
+
+        @media screen and (min-width: 768px){
+            flex: 0 0 auto;
+            width: 33.33333333%;
+        }
+    }
+
+    ul{
+        li{
+            @extend %padding-standard;
+            svg{
+                vertical-align: middle;
+                color: $color-primary;
+            }
+        }
+    }
+
+
+
+}

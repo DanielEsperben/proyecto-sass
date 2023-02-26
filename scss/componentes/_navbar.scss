@@ -1,0 +1,30 @@
+.navbar {
+  @extend %navbar;
+
+  div {
+    div {
+      ul {
+        li {
+          @extend %padding-standard;
+          text-decoration: nth($f-deco, 1);
+          &:hover {
+            text-decoration: nth($f-deco, 2);
+          }
+
+          a {
+            font-size: nth ($f-size, 1);
+            font-family: $f-sofia;
+            color: $color-primary;
+          }
+        }
+      }
+    }
+
+    a.navbar-brand {
+      font-size: nth($f-size, 1);
+      font-family: $f-roboto;
+      font-weight: $fw-1;
+      text-decoration: nth($f-deco, 1);
+    }
+  }
+}
