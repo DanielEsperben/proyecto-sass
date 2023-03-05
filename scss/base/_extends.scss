@@ -1,29 +1,28 @@
-%navbar{
-    --bs-navbar-padding-x: 6%;
-    --bs-navbar-padding-y: 5%;
-    --bs-bg-opacity: 0;
+%navbar {
+  --bs-navbar-padding-x: 6%;
+  --bs-navbar-padding-y: 5%;
+  --bs-bg-opacity: 0;
 }
 
-%footer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1.5rem 0 1.5rem 0;
-    padding: 1rem 0 1rem 0;
+%footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 0 1.5rem 0;
+  padding: 1rem 0 1rem 0;
 }
 
-
-%padding-standard{
-    padding: 0 20px;
+%padding-standard {
+  padding: 0 20px;
 }
 
-%card{
-    display: flex;
-    flex-flow: row wrap;
-    margin: 3rem 0 2rem 0;
+%card {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 3rem 0 2rem 0;
 }
 
-%margencards{
-    padding: 16px;
+%margencards {
+  padding: 16px;
 }

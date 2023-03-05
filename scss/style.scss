@@ -2,8 +2,9 @@
 @import "./base/generales";
 @import "./base/variables";
 @import "./base/listas";
-@import "./base/tipografias";
 @import "./base/extends";
+@import "./base/mixins";
+@import "./base/mapas";
 
 
 // Componentes
@@ -11,3 +12,4 @@
 @import "./componentes/navbar";
 @import "./componentes/footer";
 @import "./componentes/card";
+@import "./componentes/boton";

@@ -1,0 +1,15 @@
+.btn-primary {
+  background-color: map-get($boton, colorp);
+  border: map-get($boton, borde);
+
+  &:hover {
+    background-color: map-get($boton, colorhvr);
+    color: map-get($boton, text-clr);
+    border: map-get($boton, bordehvr);
+  }
+
+  &:active {
+    --bs-btn-active-bg: rgb(32, 32, 32);
+    color: map-get($boton, text-clr);
+  }
+}
