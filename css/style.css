@@ -62,7 +62,7 @@ footer {
   padding: 1rem 0 1rem 0;
 }
 
-footer ul li, .navbar div div ul li {
+form div input, footer ul li, .navbar div div ul li {
   padding: 0 20px;
 }
 
@@ -74,6 +74,10 @@ footer ul li, .navbar div div ul li {
 
 article {
   padding: 16px;
+}
+
+form div label {
+  padding: 16px 0;
 }
 
 .navbar div div ul li {
@@ -131,6 +135,33 @@ footer ul li svg {
 .btn-primary:active {
   --bs-btn-active-bg: rgb(32, 32, 32);
   color: white;
+}
+
+form div label {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+}
+form div input {
+  font-family: "Sofia Sans", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  color: #2e2e2e;
+  width: 100%;
+  height: 40px;
+}
+form div textarea {
+  font-family: "Sofia Sans", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  border-style: none;
+  background-color: #f0f0f0;
+  color: #2e2e2e;
+  width: 100%;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

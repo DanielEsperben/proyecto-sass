@@ -64,7 +64,7 @@
   <main>
     <div class="card border-0 mx-auto mb-3 px-5" style="max-width: 1000px;">
       <div class="row g-0">
-        <div class="col-md-4">
+        <div class="col-md-4 px-2">
           <img src="../images/contacto.jpeg" class="img-fluid rounded-start py-3"
             alt="equipo de motiva suplemento cultural">
           <p class="card-text mb-2">Motivo es una colección de objetos de arte y diseño, curada por Carla y Dani.<br>
@@ -73,13 +73,28 @@
           <p>Para colaboraciones y comentarios, te invitamos a que nos contactes a través del formulario.<br></p>
           <p>Te responderemos a la brevedad.<br></p>
         </div>
-        <div class="col-md-8 px-3">
+
+        <!-- Formulario -->
+        <div class="col-md-8 px-1">
           <div class="card-body">
-            <h1 class="card-title">Formulario de contacto</h1>
-            <p class="card-text">Nombre (Formulario)<br></p>
-            <p>Email (Formulario)<br></p>
-            <p>Espacio para comentarios (Formulario)<br></p>
-            <button class="btn btn-primary" type="submit">Enviar</button>
+            <form action="./php/form" method="get">
+
+              <div class="card-text mb-2">
+                <label for="name">Nombre</label><br>
+                <input type="text" id="name" name="user_name">
+              </div>
+
+              <div class="card-text mb-4">
+                <label for="mail">Email</label><br>
+                <input type="email" id="mail" name="user_mail">
+              </div>
+
+              <div class="card-text mb-4">
+                <label for="msg">Tu mensaje</label><br>
+                <textarea id="msg" name="user_msg" rows="9"></textarea>
+              </div>
+              <button class="btn btn-primary" type="submit">Enviar</button>
+            </form>
           </div>
         </div>
       </div>

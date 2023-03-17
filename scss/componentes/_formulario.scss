@@ -1,0 +1,34 @@
+form {
+  div {
+    label {
+      @extend %formulario;
+      font-family: $f-roboto;
+      font-size: nth($f-size, 3);
+      text-decoration: nth($f-deco, 1);
+    }
+
+    input {
+      @extend %padding-standard;
+      font-family: $f-sofia;
+      font-size: nth($f-size, 3);
+      text-decoration: nth($f-deco, 1);
+      border-top-style: nth($f-deco, 1);
+      border-left-style: nth($f-deco, 1);
+      border-right-style: nth($f-deco, 1);
+      color: $color-ter;
+      width: 100%;
+      height: 40px;
+    }
+
+    textarea {
+      font-family: $f-sofia;
+      font-size: nth($f-size, 3);
+      text-decoration: nth($f-deco, 1);
+      border-style: nth($f-deco, 1);
+      background-color: rgba($color: #f0f0f0a8, $alpha: 1);
+      color: $color-ter;
+      width: 100%;
+      padding: 20px;
+    }
+  }
+}
